@@ -1,0 +1,1 @@
+<view class="content"><image class="books" src="../../../static/moyao/book1.jpg" mode data-event-opts="{{[['tap',[['toCatelog']]]]}}" bindtap="__e"></image></view>

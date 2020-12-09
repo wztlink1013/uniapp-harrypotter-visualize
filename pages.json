@@ -1,13 +1,146 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/index1/index1",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		},
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh":true
 			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/write/write",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+ {
+			"path": "pages/editArt/editArt",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	    ,{
-            "path" : "pages/page-test/index/index",
+            "path" : "pages/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,
+		{
+			"path" : "pages/index1_content/moyao/catalog",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/moyao/index",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/moyao/mulu",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/moyao/web-view",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/mozhou/Attack/Attack",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/mozhou/Common/Common",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/mozhou/Defence/Defence",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/mozhou/index/index",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/mozhou/Other/Other",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/index1_content/mozhou/Unforgivable/Unforgivable",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/index1_content/mozhang/mozhang",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -17,9 +150,42 @@
         }
     ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "哈里世界",
+		"navigationBarBackgroundColor": "#505050",
+		"backgroundColor": "#000000"
+	},
+	"tabBar": {
+		"backgroundColor":"#505050",
+		"color": "#000000",
+		"selectedColor": "#DE533A",
+		"list": [
+			{
+					"pagePath": "pages/index1/index1",
+					"text": "首页",
+					"iconPath": "static/nav0.png",
+					"selectedIconPath": "static/nav0-a.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "文章",
+				"iconPath": "static/nav1.png",
+				"selectedIconPath": "static/nav1-a.png"
+			},
+			{
+				"pagePath": "pages/write/write",
+				"text": "写作",
+				"iconPath": "static/nav2.png",
+				"selectedIconPath": "static/nav2-a.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/nav3.png",
+				"selectedIconPath": "static/nav3-a.png"
+			}
+		
+			
+		]
 	}
 }

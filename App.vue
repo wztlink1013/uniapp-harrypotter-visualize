@@ -1,5 +1,6 @@
 <script>
 	export default {
+		
 		onLaunch: function() {
 			console.log('App Launch')
 		},
@@ -14,4 +15,7 @@
 
 <style>
 	/*每个页面公共css */
+	@import 'graceUI/graceUI.css';
+	@import './colorui/main.css';
+	@import './colorui/icon.css';
 </style>

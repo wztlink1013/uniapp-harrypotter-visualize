@@ -1,15 +1,65 @@
 {
   "pages": [
+    "pages/index1/index1",
     "pages/index/index",
-    "pages/page-test/index/index"
+    "pages/my/my",
+    "pages/write/write",
+    "pages/login/login",
+    "pages/editArt/editArt",
+    "pages/info/info",
+    "pages/index1_content/moyao/catalog",
+    "pages/index1_content/moyao/index",
+    "pages/index1_content/moyao/mulu",
+    "pages/index1_content/moyao/web-view",
+    "pages/index1_content/mozhou/Attack/Attack",
+    "pages/index1_content/mozhou/Common/Common",
+    "pages/index1_content/mozhou/Defence/Defence",
+    "pages/index1_content/mozhou/index/index",
+    "pages/index1_content/mozhou/Other/Other",
+    "pages/index1_content/mozhou/Unforgivable/Unforgivable",
+    "pages/index1_content/mozhang/mozhang"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "悦读",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#DE533A",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "static/nav0.png",
+        "selectedIconPath": "static/nav0-a.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "文章",
+        "iconPath": "static/nav1.png",
+        "selectedIconPath": "static/nav1-a.png"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "text": "写作",
+        "iconPath": "static/nav2.png",
+        "selectedIconPath": "static/nav2-a.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/nav3.png",
+        "selectedIconPath": "static/nav3-a.png"
+      }
+    ]
+  },
+  "permission": {},
+  "uniStatistics": {
+    "enable": true
+  },
   "usingComponents": {},
-  "sitemapLocation": "sitemap24.json"
+  "sitemapLocation": "sitemap78.json"
 }

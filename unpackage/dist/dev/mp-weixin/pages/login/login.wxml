@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['acquireInfo',['$event']]]]]}}" bindtap="__e">微信登录</button></view>

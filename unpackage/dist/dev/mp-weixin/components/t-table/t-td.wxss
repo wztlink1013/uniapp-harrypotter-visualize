@@ -1,0 +1,21 @@
+
+.t-td {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 14rpx;
+	border-top: 1rpx #d0dee5 solid;
+	border-left: 1rpx #d0dee5 solid;
+	text-align: center;
+	color: ;
+	font-size: 40rpx;
+	-webkit-flex-grow:1;
+	        flex-grow:1;
+}
+
