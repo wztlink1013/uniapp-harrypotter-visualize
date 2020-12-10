@@ -43,9 +43,8 @@ jobs:
           cd github_repository
           rm -r .git
           cd ..
-          cd gitee_repository
+          mv gitee_repository/.git/ -f github_repository/
           mv github_repository/ -f gitee_repository/
-          cd gitee_repository
           git status
           git add .
           git commit -m "remove to gitee_repository"
