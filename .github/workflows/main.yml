@@ -45,7 +45,6 @@ jobs:
           cd ..
           mv gitee_repository/.git/ -f github_repository/
           mv github_repository/ -f gitee_repository/
-          git status
           git add .
           git commit -m "remove to gitee_repository"
           git push --force --quiet "https://${Gitee_Token}@${Gitee_Pages}" master:master
