@@ -33,18 +33,3 @@ jobs:
         run: |
           git log --pretty=format:"%s from Github Actions at `date +"%Y-%m-%d %H:%M:%S"`" --date=short -n 1  > commit-message.log
 
-      - name: push Gitee repository
-        env:
-          Gitee_Pages: gitee.com/wztlink1013/uniapp-harryPotter-visualize.git
-          Gitee_Token: ${{ secrets.GITEE_TOKEN }}
-        run: |  
-          git clone https://github.com/wztlink1013/uniapp-harryPotter-visualize.git github_repository
-          git clone https://gitee.com/wztlink1013/uniapp-harryPotter-visualize.git gitee_repository
-          cd github_repository
-          rm -r .git
-          cd ..
-          mv gitee_repository/.git/ -f github_repository/
-          mv github_repository/ -f gitee_repository/
-          git add .
-          git commit -m "remove to gitee_repository"
-          git push --force --quiet "https://${Gitee_Token}@${Gitee_Pages}" master:master
